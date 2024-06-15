@@ -6,7 +6,8 @@
 
 .skills__content{
     background-color: rgb(249, 249, 249);
-    border: 1.5px solid rgb(158, 158, 158);
+    /* border: 1.5px solid rgb(158, 158, 158); */
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.22);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }

@@ -14,7 +14,8 @@
 }
 .about__box{
     background-color: rgb(249, 249, 249);
-    border: 1.5px solid rgb(158, 158, 158);
+    /* border: 1.5px solid rgb(158, 158, 158); */
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.22);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
