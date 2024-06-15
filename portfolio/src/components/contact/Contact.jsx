@@ -30,7 +30,7 @@ const Contact = () => {
                         <h3 className='contact__card-title'>Email</h3>
                         <span className='contact__card-data'>antonyperies99@gmail.com</span>
 
-                        <a href='mailto:examplemail@gmail.com.com' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                        <a href='https://mail.google.com/' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
                     </div>
                     <div className='contact__card'>
                         <i className='bx bxl-whatsapp contact__card-icon'></i>
