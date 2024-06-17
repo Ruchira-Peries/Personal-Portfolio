@@ -6,7 +6,7 @@ const Data = () => {
       <h1 className='home__title'>Ruchira Peries
       </h1>
       <h3 className='home__subtitle'>UI|UX Engineer</h3>
-      <p className='home__description'> I'm following my BSc( Honors) in Computing and Information Systems at Sabaragamuwa University of Sri Lanka.</p>
+      <p className='home__description'> I am a dedicated UI/UX Engineer with a talent for designing intuitive and engaging user interfaces. I blend design principles with front-end development to create user-centered solutions that are both beautiful and functional.</p>
       <a href='#contact' className='button button--flex'>
       Say Hello
       <svg
