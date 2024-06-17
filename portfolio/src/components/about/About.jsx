@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/w1.png";
-import CV from "../../assets/Cv_Ruchira.pdf";
+import CV from "../../assets/CV_Ruchira (1).pdf";
 import Info from './Info';
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
             <div className='about__data'>
                 <Info/>
                 <p className='about__description'>
-                    I'm following my BSc( Honors) in Computing and Information Systems at Sabaragamuwa University of Sri Lanka.
+                     I am in my third year following  BSc( Honors) in Computing and Information Systems at Sabaragamuwa University of Sri Lanka.
                 </p>
                 <a download="" href={CV} className='button button--flex'>
                     Download CV

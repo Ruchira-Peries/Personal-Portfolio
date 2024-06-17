@@ -4,7 +4,7 @@ export const projectsData = [
     {
         id: 1,
         image:Work1,
-        title: 'Web Application',
+        title: ' Medical Records Management System',
         category:'web',
     },
     {

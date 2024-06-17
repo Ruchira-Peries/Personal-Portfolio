@@ -8,6 +8,7 @@
     align-items: center;
 }
 .home__social{
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
