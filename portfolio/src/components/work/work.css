@@ -23,7 +23,7 @@
 
 
 .work__container{
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(2,450px);
     gap: 3rem;
     justify-content: center;
 }
@@ -35,16 +35,40 @@
 }
 
 .work__img{
-    width: 295px;
-    height: 158px;
-    border-radius: 1rem;
+    width: 400px;
+    height: 250px;
+    border-radius: 1.25rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.22);
     margin-bottom: var(--mb-1);
+    transition: 1s ease;
+}
+.work__img:hover{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 1s ease;
 }
 .work__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
 }
+.work__subtitle {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-0-5);
+}
+.work__technologies{
+    font-size: var(--normal-font-size);
+}
+.work__social{
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+.work__social:hover{
+    color: var(--title-color-dark);
+}
+
 .work__button{
     color: var(--text-color);
     font-size: var(--small-font-size);
@@ -67,12 +91,15 @@
 
 @media screen and (max-width:992px) {
    .work__container{
+    grid-template-columns: repeat(2, 380px);
     gap: 1.25rem;
    }
    .work__card{
     padding: 1rem;
    }
    .work__img{
+    width: 100%;
+    height: 57%;
     margin-bottom: 0.75rem;
    }
    .work__title{
@@ -82,8 +109,13 @@
 
 @media screen and (max-width:768px) {
     .work__container{
-        grid-template-columns: max-content;
+        grid-template-columns: 450px;
     }
+    .work__img{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0.75rem;
+   }
 }
 
 @media screen and (max-width:576px) {
@@ -92,8 +124,12 @@
     }
     .work__img{
         width: 100%;
-
+        height: fit-content;
     }
+    .work__social{
+    font-size: 1rem;
+   
+}
 }
 
 @media screen and (max-width:350px) {
@@ -102,15 +138,25 @@
         }
     
         .work__img {
-            width: 220px;
-            height: 130px;
+        width: 100%;
+        height: fit-content;
     
         }
 
     .work__item{
         font-size: var(--small-font-size);
     }
+    .work__subtitle {
+    font-size: var(--smaller-font-size);
+}
+    .work__technologies{
+    font-size: var(--small-font-size);
+}
     .work__filters{
         column-gap: 0.25rem;
     }
+    .work__social{
+    font-size: 1rem;
+   
+}
 }

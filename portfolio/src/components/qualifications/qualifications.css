@@ -59,6 +59,8 @@
      border-radius: 50%;
 }
 .qualification__line{
+    position: relative;
+    z-index: -1;
     display: block;
     width: 1px;
     height: 100%;

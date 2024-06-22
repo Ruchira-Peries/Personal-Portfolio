@@ -5,20 +5,34 @@ export const projectsData = [
         id: 1,
         image:Work1,
         title: ' Medical Records Management System',
+        subtitle: 'Medical records management system which provides online appointment and consultation features for university students.',
+        technologies:'ReactJS | NodeJS | MySQL',
         category:'web',
+        icons: [
+            {
+                href: 'https://www.figma.com/design/ULpUh244De2fF9d1vfxfa6/Medical-System?node-id=0-1&t=jshIQyHfqIXsNiid-1',
+                iconClass: 'bx bxl-figma'  
+            },
+            {
+                href: 'https://github.com/Ruchira-Peries/Capston_Mini_Project',
+                iconClass: 'uil uil-github'  
+            },
+        ]
     },
     {
         id: 2,
         image:Work2,
-        title: 'Web Design',
-        category:'design',
+        title: 'Portfolio Website',
+        subtitle: 'Portfolio website to showcase the individual information and projects ',
+        technologies:'ReactJS',
+        category:'web',
+        icons: [
+            {
+                href: 'https://github.com/Ruchira-Peries/Personal-Portfolio',
+                iconClass: 'uil uil-github'  
+            },
+        ]
     },
-    // {
-    //     id: 3,
-    //     image:'web design',
-    //     title: 'App movil',
-    //     category:'app',
-    // },
 ];
 
 export const projectsNav = [
