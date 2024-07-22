@@ -124,7 +124,7 @@
     }
     .work__img{
         width: 100%;
-        height: fit-content;
+        /* height: fit-content; */
     }
     .work__social{
     font-size: 1rem;
@@ -139,7 +139,7 @@
     
         .work__img {
         width: 100%;
-        height: fit-content;
+        /* height: fit-content; */
     
         }
 
