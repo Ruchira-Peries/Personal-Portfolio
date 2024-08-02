@@ -1,5 +1,7 @@
 import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
+import Work3 from "../../assets/work3.png";
+import Work4 from "../../assets/work4.png";
 export const projectsData = [
     {
         id: 1,
@@ -7,7 +9,7 @@ export const projectsData = [
         title: ' Medical Records Management System',
         subtitle: 'Medical records management system which provides online appointment and consultation features for university students.',
         technologies:'ReactJS | NodeJS | MySQL',
-        category:'web',
+        category:'web design',
         icons: [
             {
                 href: 'https://www.figma.com/design/ULpUh244De2fF9d1vfxfa6/Medical-System?node-id=0-1&t=jshIQyHfqIXsNiid-1',
@@ -17,19 +19,56 @@ export const projectsData = [
                 href: 'https://github.com/Ruchira-Peries/Capston_Mini_Project',
                 iconClass: 'uil uil-github'  
             },
+            {
+                href: 'https://www.behance.net/gallery/203720379/Medical-Records-Management-System',
+                iconClass: 'uil uil-behance'  
+            },
         ]
     },
     {
         id: 2,
         image:Work2,
         title: 'Portfolio Website',
-        subtitle: 'Portfolio website to showcase the individual information and projects ',
+        subtitle: 'Developed a comprehensive personal portfolio website which showcase my projects, skills, and experience in an engaging and visually appealing manner.',
         technologies:'ReactJS',
-        category:'web',
+        category:'web design',
         icons: [
             {
                 href: 'https://github.com/Ruchira-Peries/Personal-Portfolio',
                 iconClass: 'uil uil-github'  
+            },
+        ]
+    },
+    {
+        id: 3,
+        image:Work3,
+        title: 'Fluent Master',
+        subtitle: 'Fluent Master is an English learning app tailored for Sri Lankan university students who are looking to improve their English proficiency.',
+        technologies:'Figma',
+        category:'mobile design',
+        icons: [
+            {
+                href: 'https://www.figma.com/design/QqChS3MbguQZKwxinYTmuA/Fluent-Master?node-id=4049-990&t=CaK8Y9AdoHl38Wg9-1',
+                iconClass: 'bx bxl-figma'  
+            },
+            {
+                href: 'https://www.behance.net/gallery/204552353/Fluent-Master-English-learning-app',
+                iconClass: 'uil uil-behance'  
+            },
+        ]
+    },
+       {
+        id: 4,
+        image:Work4,
+        title: 'Vector Illustration',
+        subtitle: 'My first vector illustration, created in Adobe Illustrator, blends creativity with technical skills, marking my debut in digital art with a vibrant and detailed design.',
+        technologies:'Adobe Illustrator',
+        category:'visual design',
+        icons: [
+    
+            {
+                href: 'https://www.behance.net/gallery/204401151/Vector-Illustration-Her',
+                iconClass: 'uil uil-behance'  
             },
         ]
     },
@@ -40,12 +79,12 @@ export const projectsNav = [
         name:'all',
     },
     {
-        name:'web',
+        name:'web design',
     },
     {
-        name:'app',
+        name:'mobile design',
     },
     {
-        name:'design',
+        name:'visual design',
     },
 ];

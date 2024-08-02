@@ -16,7 +16,7 @@ const Services = () => {
             <div className='services__content'>
                 <div>
                     <i className='uil uil-web-grid services__icon'></i>
-                    <h3 className='services__title'>UI|UX <br/> Designer</h3>
+                    <h3 className='services__title'>UI<br/> Designer</h3>
                 </div>
 
                 <span className='services__button'onClick={()=>toggleTab(1)} >View More<i className='uil uil-arrow-right services__button-icon'></i></span>
@@ -25,23 +25,24 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
-                        <h3 className='services__modal-title'>UI|UX Designer</h3>
-                        <p className='services__modal-description'>I create user-friendly and visually appealing digital interfaces, blending beauty with functionality through user-centered design.</p>
+                        <h3 className='services__modal-title'>UI Designer</h3>
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Design intuitive and user-friendly interfaces</p>
+                                <p className='services__modal-info'><p className='p-bold'>Visual Design:</p> Creating the visual elements of the interface, including color schemes, typography, icons, and layout to ensure a cohesive and attractive design.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Create visually appealing and cohesive designs</p>
+                                <p className='services__modal-info'><p className='p-bold'>Interactive Elements:</p> Designing and refining buttons, sliders, and other interactive components to enhance usability and engagement.
+
+</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Develop wireframes and prototypes to visualize concepts</p>
+                                <p className='services__modal-info'><p className='p-bold'>Responsive Design:</p> Ensuring that the design adapts seamlessly to different screen sizes and devices, maintaining functionality and aesthetics across platforms.</p>
                             </li>
                         </ul>
                     </div>
@@ -50,8 +51,8 @@ const Services = () => {
 
             <div className='services__content'>
                 <div>
-                    <i className='uil uil-arrow services__icon'></i>
-                    <h3 className='services__title'>Front-end <br/> Developer</h3>
+                    <i className='uil uil-web-grid services__icon'></i>
+                    <h3 className='services__title'>UX<br/> Designer</h3>
                 </div>
 
                 <span className='services__button'onClick={()=>toggleTab(2)}>View More<i className='uil uil-arrow-right services__button-icon'></i></span>
@@ -60,23 +61,23 @@ const Services = () => {
                     <div className='services__modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
 
-                        <h3 className='services__modal-title'>Front-end Developer</h3>
-                        <p className='services__modal-description'>As a front-end developer, I excel in designing visually stunning and highly responsive user interfaces.</p>
+                        <h3 className='services__modal-title'>UX Designer</h3>
+                        {/* <p className='services__modal-description'>As a front-end developer, I excel in designing visually stunning and highly responsive user interfaces.</p> */}
 
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Build responsive and user-friendly web interfaces</p>
+                                <p className='services__modal-info'><p className='p-bold'>User Research:</p> Conducting surveys, interviews, and usability testing to understand user needs, preferences, and pain points, which inform design decisions.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Implement intuitive and interactive features</p>
+                                <p className='services__modal-info'><p className='p-bold'>Wireframing and Prototyping:</p> Creating low-fidelity wireframes and interactive prototypes to map out the structure and functionality of a product before development begins.</p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className='uil uil-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Collaborate with team members for seamless integration</p>
+                                <p className='services__modal-info'><p className='p-bold'>Usability Testing:</p> Evaluating the product with real users to identify issues and areas for improvement, ensuring that the final design provides a smooth and intuitive user experience.</p>
                             </li>
                         </ul>
                     </div>

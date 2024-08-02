@@ -55,6 +55,9 @@
     opacity: 0;
     visibility: hidden;
 }
+.p-bold{
+    color: var(--title-color);
+}
 
 .services__modal-content{
     width: 500px;
@@ -90,7 +93,7 @@
 }
 .services__modal-service{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: .5rem;
 }
 .services__modal-icon{
