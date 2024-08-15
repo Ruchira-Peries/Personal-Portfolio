@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.80f0d852.css",
-    "main.js": "/static/js/main.f681490e.js",
+    "main.js": "/static/js/main.af2fe4a2.js",
     "static/media/work2.png": "/static/media/work2.b2835825d8f44acc2e43.png",
     "static/media/w2.png": "/static/media/w2.e870bb46b1fbee8c9720.png",
     "static/media/w1.png": "/static/media/w1.c8ceda1a21e6aac9bdae.png",
+    "static/media/work5.png": "/static/media/work5.a6304f59aec87adedf46.png",
     "static/media/work1.png": "/static/media/work1.b38751382fc74636a822.png",
     "static/media/work3.png": "/static/media/work3.3252b6d67451e3f2bd23.png",
     "static/media/work4.png": "/static/media/work4.341391338bcb4b489603.png",
     "static/media/Ruchira Peries.pdf": "/static/media/Ruchira Peries.5fa349c99d37f5dddf0c.pdf",
     "index.html": "/index.html",
     "main.80f0d852.css.map": "/static/css/main.80f0d852.css.map",
-    "main.f681490e.js.map": "/static/js/main.f681490e.js.map"
+    "main.af2fe4a2.js.map": "/static/js/main.af2fe4a2.js.map"
   },
   "entrypoints": [
     "static/css/main.80f0d852.css",
-    "static/js/main.f681490e.js"
+    "static/js/main.af2fe4a2.js"
   ]
 }
