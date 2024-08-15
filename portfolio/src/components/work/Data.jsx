@@ -2,6 +2,7 @@ import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
+import Work5 from "../../assets/work5.png";
 export const projectsData = [
     {
         id: 1,
@@ -69,6 +70,20 @@ export const projectsData = [
             {
                 href: 'https://www.behance.net/gallery/204401151/Vector-Illustration-Her',
                 iconClass: 'uil uil-behance'  
+            },
+        ]
+    },
+    {
+        id: 5,
+        image:Work5,
+        title: 'E-Sports Roster',
+        subtitle: 'Created an intuitive design for an eSports app, showcasing teams, match schedules, and standings for a seamless user experience.',
+        technologies:'Figma',
+        category:'web design',
+        icons: [
+            {
+                href: 'https://www.figma.com/design/8iLPbecF3lsXJXFH4dS6js/E-Sports-Roster?node-id=5-2&t=St8i1b1WY5NzyCEQ-1',
+                iconClass: 'bx bxl-figma'  
             },
         ]
     },
