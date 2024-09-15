@@ -9,7 +9,7 @@
   --title-color-dark:hsl(var(--hue),var(--sat),0%);
   --text-color:hsl(var(--hue),var(--sat),46%);
   /* --body-color:hsl(var(--hue0,var(--sat),98%)); */
-  --body-color:whitesmoke;
+  --body-color:#f5f5f5;
   --container-color:#fff;
 
   --body-font:"Poppins",sans-serif;
